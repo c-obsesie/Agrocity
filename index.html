@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Hello, world!</title>
+  <style>
+    /* Set the size of the div element that contains the map */
+    #map {
+      height: 400px;
+      /* The height is 400 pixels */
+      width: 100%;
+      /* The width is the width of the web page */
+    }
+  </style>
+</head>
+
+<body><div id="your-element-selector">
+  <div class="wrapper">
+    
+      <nav>
+        <h1>Bucurestiul in culori</h1>
+      </nav>
+      <div class="section-one">
+        <div class="container">
+          <h2>Bucureștiul, asemenea multor orașe din România, este văzut ca un oraș predominant gri și mohorât. De
+            aceea, am hotărât să-l colorăm noi în viile culori ale curcubeului.</h2>
+        </div>
+      </div>
+      <div class="section-two">
+
+        <div id="map"></div>
+
+
+
+      </div>
+      <div class="section-three">
+        <div class="container">
+          <div class="card card-center align-item-center justify-content-center" style="width: 28rem; ">
+            <img src="./assets/56051151.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Date Personale</h5>
+              
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> Nume: Cosmin Mihalache</li>
+                  <li class="list-group-item">Varsta:25</li>
+                  <li class="list-group-item">Email: cosmin.mihalache95@gmail.com</li>
+                  <li class="list-group-item"> Nr telefo</li>
+                </ul>
+                <h4>Description</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus veritatis voluptatibus sapiente ratione vitae quos enim perspiciatis nobis non atque pariatur dolor doloribus, eum totam inventore corporis repudiandae exercitationem eos.</p>
+
+            </div>
+            
+          </div>
+
+
+        </div>
+        </div>
+      </div>
+    </div>
+      <footer class="wrapper-footer fixed-bottom footer navbar-static-bottom">
+        <div class="container text-footer">© 2019 | Made with ♥ for inTech Dynamics</div>
+      </footer>
+
+
+      <!-- Optional JavaScript -->
+      <script src="script.js"></script>
+
+      <script src="three.min.js"></script>
+      <script src="vanta.waves.min.js"></script>
+      <script>
+        VANTA.WAVES({
+          el: "#your-element-selector",
+          mouseControls: true,
+          touchControls: true,
+          minHeight: 1.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          //color: 0x158e80
+        })
+      </script>
+
+      <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOIwFmO5CPP90twB-I-9OUOo9LKo88uDU&callback=initMap">
+        </script>
+
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
